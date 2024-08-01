@@ -45,7 +45,6 @@ a {
 .nav li {
   display: flex;
   align-items: center;
-  /* position: relative; */
   justify-content: space-between;
   padding: 8px 26px;
 }
@@ -60,11 +59,57 @@ a {
 .nav a:hover {
   color: black;
   font-style: normal;
-  /* font-weight: 600; */
   text-shadow: 1px 0 0 currentColor;
 }
 
 .btn {
   display: flex;
   gap: 24px;
+}
+/* ----------- hero ----------- */
+.hero {
+  display: flex;
+}
+
+.hero img {
+  object-fit: cover;
+  position: absolute;
+}
+
+.hero .main-content {
+  position: relative;
+  top: 135px;
+}
+
+.hero .heading {
+  color: black;
+  font-size: 5.2rem;
+  font-weight: 600;
+  line-height: 78px;
+}
+
+.hero .desc {
+  font-size: 2rem;
+  line-height: 30px;
+}
+
+.hero .btn {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  width: 220px;
+  line-height: 48px;
+  background-color: #405741;
+  border-radius: 10px;
+}
+
+.hero .btn a {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+.hero .btn a img {
+  position: relative;
 }
