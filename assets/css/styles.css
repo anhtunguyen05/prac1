@@ -405,3 +405,88 @@ a {
   width: 20px;
   height: 20px;
 }
+/* ---------- feedback ---------- */
+.feedback {
+  margin-top: 120px;
+  background-color: #e9f8ef;
+  padding: 80px 0 80px;
+  height: 663px;
+}
+.feedback-top .heading {
+  font-size: 4.4rem;
+  font-weight: 600;
+  line-height: 66px;
+  text-align: center;
+}
+.feedback-top .desc {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #172b4d;
+}
+.feedback-list {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.feedback-item {
+  width: 32.5%;
+  height: 234px;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 3px 5px 0px #091e4233;
+}
+.feedback-item .desc {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+  height: 96px;
+}
+.feedback-item .info {
+  margin-top: 40px;
+  display: flex;
+}
+.feedback-item .info .avatar {
+  width: 253px;
+  display: flex;
+  gap: 16px;
+}
+.feedback-item .info .avatar p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 21px;
+  color: #a8a9b2;
+}
+
+.feedback-item .info .avatar .name {
+  gap: 4px;
+}
+.feedback-item .info .avatar .name-1 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 24px;
+  color: #121216;
+}
+.feedback-item .icon {
+  margin-left: 37px;
+}
+.feedback .dots {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.feedback .dot {
+  width: 40px;
+  height: 8px;
+  border-radius: 8px;
+  background: #405741;
+  opacity: 20%;
+  cursor: pointer;
+}
+.feedback .dot.active {
+  opacity: 100%;
+  cursor: default;
+}
