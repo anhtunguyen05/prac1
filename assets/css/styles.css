@@ -311,3 +311,97 @@ a {
   text-align: left;
   color: #ffffff;
 }
+/* -------- banner -------- */
+.banner {
+}
+.banner .main-content {
+  height: 444.38px;
+  margin-top: 120px;
+  background-image: url(/assets/img/ban2.png);
+  background-size: 50% cover;
+  background-position: 0px 535px;
+  display: flex;
+  border-radius: 24px;
+}
+.banner .banner-left {
+  width: 40%;
+  height: 444.38px;
+  display: flex;
+}
+.banner .banner-left img {
+  object-fit: cover;
+}
+.banner .banner-left .img-1 {
+  width: 800px;
+  height: 600px;
+
+  position: absolute;
+  left: 100px;
+}
+.banner .banner-left .img-2 {
+  width: 190.73px;
+  height: 190.73px;
+  position: relative;
+  top: 250px;
+  left: 360px;
+}
+.banner .banner-left .img-3 {
+  width: 147px;
+  height: 348px;
+  position: relative;
+  top: 40px;
+  left: 100px;
+}
+.banner .banner-left .img-4 {
+  width: 116px;
+  height: 116px;
+  position: relative;
+  top: 280px;
+  left: -125px;
+}
+
+.banner .banner-right {
+  width: 500px;
+  height: 289.92px;
+  padding-top: 53px;
+  margin-left: 100px;
+}
+.banner .banner-right .heading {
+  width: 559px;
+  height: 108px;
+
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  color: black;
+}
+.banner .banner-right .desc {
+  margin-top: 13.17px;
+  width: 559px;
+  height: 81px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+.banner .banner-right .btn {
+  margin-top: 33px;
+  width: 168px;
+  height: 44px;
+  gap: 8px;
+  background-color: #405741;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.banner .banner-right .btn p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+}
+.banner .banner-right .btn img {
+  width: 20px;
+  height: 20px;
+}
