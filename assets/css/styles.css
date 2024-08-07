@@ -59,7 +59,6 @@ a {
 .nav a {
   color: black;
   font-size: 1.6rem;
-
   opacity: 0.7;
 }
 
@@ -309,8 +308,6 @@ a {
   color: #ffffff;
 }
 /* -------- banner -------- */
-.banner {
-}
 .banner .main-content {
   height: 444.38px;
   margin-top: 120px;
@@ -491,8 +488,6 @@ a {
 .footer {
   margin-top: 120px;
   background-color: #f1f2f44d;
-}
-.footer .main-content {
 }
 .footer .main-content .row {
   display: flex;
