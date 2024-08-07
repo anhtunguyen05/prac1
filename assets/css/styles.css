@@ -490,3 +490,119 @@ a {
   opacity: 100%;
   cursor: default;
 }
+/* ------- footer ------- */
+.footer {
+  margin-top: 120px;
+  background-color: #f1f2f44d;
+}
+.footer .main-content {
+}
+.footer .main-content .row {
+  display: flex;
+  gap: 88px;
+  padding: 40px 0 40px;
+  margin-bottom: 40px;
+}
+.footer .column-1 {
+  width: 490px;
+}
+.footer .column-1 .logo {
+  width: 227px;
+  height: 74px;
+}
+.footer .column-1 .desc {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer .column-1 .social {
+  display: flex;
+  margin-top: 24px;
+  gap: 12px;
+}
+.column-2 {
+  width: 173px;
+}
+.footer .title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 27px;
+  padding-bottom: 24px;
+}
+.footer .list li {
+  padding: 8px;
+}
+.footer .list li a {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 24px;
+  color: #091e42;
+}
+.email {
+  margin-top: 24px;
+  display: flex;
+}
+.enter-email {
+  display: flex;
+  width: 246px;
+  height: 56px;
+  gap: 8px;
+  padding: 0 16px;
+  border-radius: 8px 0px 0px 8px;
+  border: 1px 0px 0px 0px;
+  border: 1px solid #dcdfe4;
+  align-items: center;
+}
+.enter-email img {
+  width: 24px;
+  height: 24px;
+}
+.enter-email p {
+  color: #8590a2;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+.email .subscribe {
+  display: flex;
+  width: 101px;
+  height: 56px;
+  border-radius: 0px 8px 8px 0px;
+  background: #405741;
+  justify-content: center;
+  align-items: center;
+}
+.email .subscribe p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+}
+.line {
+  margin-left: -127px;
+  width: 1440px;
+  border: 1px solid #dcdfe4;
+}
+.eco-dental {
+  display: flex;
+  gap: 447px;
+  padding: 19px 0 19px;
+}
+.eco-dental p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 21px;
+  opacity: 0.7;
+}
+.eco-dental ul {
+  display: flex;
+  gap: 24px;
+}
+.eco-dental li {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 21px;
+  color: #091e42;
+  opacity: 0.7;
+}
